@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.1/css/bootstrap.min.css" integrity="sha512-Z/def5z5u2aR89OuzYcxmDJ0Bnd5V1cKqBEbvLOiUNWdg9PQeXVvXLI90SE4QOHGlfLqUnDNVAYyZi8UwUTmWQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Font Awesome -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet"/>
+    <title>Document</title>
+
+</head>
+<body>
+    <!-- Section: Design Block -->
+<section class="text-center">
+    <!-- Background image -->
+    <div class="p-5 bg-image" style="
+          background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20210115/pngtree-chocolate-cream-cake-banner-image_520294.jpg');
+          height: 330px;
+          "></div>
+    <!-- Background image -->
+  
+    <div class="card mx-4 mx-md-5 shadow-5-strong" style="
+          margin-top: -100px;
+          background: hsla(0, 0%, 100%, 0.8);
+          backdrop-filter: blur(30px);
+          ">
+      <div class="card-body py-5 px-md-5">
+  
+        <div class="row d-flex justify-content-center">
+          <div class="col-lg-8">
+            <h2 class="fw-bold mb-5">Sign in now</h2>
+            <form>
+              <!-- 2 column grid layout with text inputs for the first and last names -->
+              
+  
+              <!-- Email input -->
+              <div class="form-outline mb-4">
+                <input type="email" id="form3Example3" class="form-control" />
+                <label class="form-label" for="form3Example3">Email address</label>
+              </div>
+  
+              <!-- Password input -->
+              <div class="form-outline mb-4">
+                <input type="password" id="form3Example4" class="form-control" />
+                <label class="form-label" for="form3Example4">Password</label>
+              </div>
+  
+            
+  
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-block mb-4" style="background-color: #E88F2A; color: #fff">
+                Sign in
+              </button>
+              <a th:href="@{./signup}" class="btn btn-block mb-4" style="background-color: #E88F2A; color: #fff">
+                Sign up
+              </a>
+  
+              <!-- Register buttons -->
+              <div class="text-center">
+                <p>or sign in with:</p>
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-facebook-f" style="color: #E88F2A"></i>
+                </button>
+  
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-google" style="color: #E88F2A"></i>
+                </button>
+  
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-twitter" style="color: #E88F2A"></i>
+                </button>
+  
+                <button type="button" class="btn btn-link btn-floating mx-1">
+                  <i class="fab fa-github" style="color: #E88F2A"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Section: Design Block -->
+</body>
+</html>
